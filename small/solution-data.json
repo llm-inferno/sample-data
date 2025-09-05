@@ -5,27 +5,25 @@
             "numReplicas": 4,
             "maxBatch": 19,
             "cost": 92,
-            "itlAverage": 21.16437,
-            "waitAverage": 102.09766,
+            "itlAverage": 21.190855,
+            "ttftAverage": 263.30676,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-granite_34b": {
             "accelerator": "G2",
-            "numReplicas": 32,
+            "numReplicas": 25,
             "maxBatch": 7,
-            "cost": 736,
-            "itlAverage": 43.17973,
-            "waitAverage": 324.78516,
+            "cost": 1150,
+            "itlAverage": 43.706932,
+            "ttftAverage": 1684.4971,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-llama_13b": {
@@ -33,111 +31,103 @@
             "numReplicas": 5,
             "maxBatch": 19,
             "cost": 115,
-            "itlAverage": 24.949406,
-            "waitAverage": 137.84766,
+            "itlAverage": 25.006908,
+            "ttftAverage": 315.18475,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-llama_70b": {
             "accelerator": "G2",
-            "numReplicas": 134,
+            "numReplicas": 79,
             "maxBatch": 3,
-            "cost": 6164,
-            "itlAverage": 31.448805,
-            "waitAverage": 331.9746,
+            "cost": 7268,
+            "itlAverage": 33.37928,
+            "ttftAverage": 1957.9786,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-mixtral_8_7b": {
             "accelerator": "G2",
-            "numReplicas": 80,
+            "numReplicas": 53,
             "maxBatch": 4,
-            "cost": 3680,
-            "itlAverage": 33.952778,
-            "waitAverage": 326.22266,
+            "cost": 2438,
+            "itlAverage": 36.35413,
+            "ttftAverage": 1962.3601,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-granite_13b": {
             "accelerator": "G2",
-            "numReplicas": 7,
+            "numReplicas": 6,
             "maxBatch": 19,
-            "cost": 161,
-            "itlAverage": 21.791157,
-            "waitAverage": 468.5332,
+            "cost": 138,
+            "itlAverage": 22.659216,
+            "ttftAverage": 3264.149,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-granite_34b": {
             "accelerator": "G2",
-            "numReplicas": 57,
+            "numReplicas": 42,
             "maxBatch": 7,
-            "cost": 1311,
-            "itlAverage": 43.407078,
-            "waitAverage": 621.75,
+            "cost": 1932,
+            "itlAverage": 44.1318,
+            "ttftAverage": 3962.0676,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-llama_13b": {
             "accelerator": "G2",
-            "numReplicas": 9,
+            "numReplicas": 8,
             "maxBatch": 19,
-            "cost": 207,
-            "itlAverage": 26.131357,
-            "waitAverage": 513.2383,
+            "cost": 184,
+            "itlAverage": 27.75653,
+            "ttftAverage": 2623.3708,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-llama_70b": {
-            "accelerator": "G2",
-            "numReplicas": 214,
-            "maxBatch": 3,
-            "cost": 9844,
-            "itlAverage": 32.145664,
-            "waitAverage": 659.4375,
+            "accelerator": "4xA100",
+            "numReplicas": 106,
+            "maxBatch": 2,
+            "cost": 16960,
+            "itlAverage": 19.124071,
+            "ttftAverage": 3970.428,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-mixtral_8_7b": {
-            "accelerator": "G2",
-            "numReplicas": 134,
-            "maxBatch": 4,
-            "cost": 6164,
-            "itlAverage": 34.84781,
-            "waitAverage": 655.7461,
+            "accelerator": "2xAIU2",
+            "numReplicas": 858,
+            "maxBatch": 6,
+            "cost": 6435,
+            "itlAverage": 319.90863,
+            "ttftAverage": 3883.5383,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-granite_13b": {
@@ -145,27 +135,25 @@
             "numReplicas": 2,
             "maxBatch": 19,
             "cost": 46,
-            "itlAverage": 21.16437,
-            "waitAverage": 102.09766,
+            "itlAverage": 21.190855,
+            "ttftAverage": 263.30676,
             "load": {
                 "arrivalRate": 60,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-granite_34b": {
             "accelerator": "G2",
-            "numReplicas": 18,
+            "numReplicas": 15,
             "maxBatch": 7,
-            "cost": 414,
-            "itlAverage": 42.971577,
-            "waitAverage": 166.47656,
+            "cost": 690,
+            "itlAverage": 43.3166,
+            "ttftAverage": 822.90454,
             "load": {
                 "arrivalRate": 60,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-llama_13b": {
@@ -173,41 +161,38 @@
             "numReplicas": 3,
             "maxBatch": 19,
             "cost": 69,
-            "itlAverage": 23.317575,
-            "waitAverage": 12.806641,
+            "itlAverage": 23.36181,
+            "ttftAverage": 174.39732,
             "load": {
                 "arrivalRate": 60,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-llama_70b": {
             "accelerator": "G2",
-            "numReplicas": 85,
+            "numReplicas": 52,
             "maxBatch": 3,
-            "cost": 3910,
-            "itlAverage": 30.862234,
-            "waitAverage": 161.66992,
+            "cost": 4784,
+            "itlAverage": 32.26533,
+            "ttftAverage": 955.8354,
             "load": {
                 "arrivalRate": 60,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-mixtral_8_7b": {
             "accelerator": "G2",
-            "numReplicas": 48,
+            "numReplicas": 33,
             "maxBatch": 4,
-            "cost": 2208,
-            "itlAverage": 33.194653,
-            "waitAverage": 159.66797,
+            "cost": 1518,
+            "itlAverage": 34.963943,
+            "ttftAverage": 953.0455,
             "load": {
                 "arrivalRate": 60,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         }
     }

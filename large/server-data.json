@@ -7,9 +7,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 120,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -20,9 +19,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 120,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -33,9 +31,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 120,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -46,9 +43,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 120,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -59,9 +55,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 120,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -72,9 +67,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 120,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -85,9 +79,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 120,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -98,9 +91,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 120,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -111,9 +103,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 120,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -124,9 +115,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 240,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -137,9 +127,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 240,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -150,9 +139,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 240,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -163,9 +151,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 240,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -176,9 +163,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 240,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -189,9 +175,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 240,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -202,9 +187,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 240,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -215,9 +199,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 240,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -228,9 +211,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 240,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -241,9 +223,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 480,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -254,9 +235,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 480,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -267,9 +247,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 480,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -280,9 +259,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 480,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -293,9 +271,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 480,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -306,9 +283,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 480,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -319,9 +295,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 480,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -332,9 +307,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 480,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         },
@@ -345,9 +319,8 @@
             "currentAlloc": {
                 "load": {
                     "arrivalRate": 480,
-                    "avgLength": 1024,
-                    "arrivalCOV": 1.5,
-                    "serviceCOV": 1.5
+                    "AvgInTokens": 128,
+                    "AvgOutTokens": 1024
                 }
             }
         }

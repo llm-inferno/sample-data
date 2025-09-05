@@ -5,41 +5,38 @@
             "numReplicas": 2,
             "maxBatch": 38,
             "cost": 130,
-            "itlAverage": 11.42869,
-            "waitAverage": 19.45996,
+            "itlAverage": 11.456726,
+            "ttftAverage": 98.64812,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-granite_20b": {
             "accelerator": "MI300X",
-            "numReplicas": 4,
+            "numReplicas": 3,
             "maxBatch": 28,
-            "cost": 260,
-            "itlAverage": 14.190127,
-            "waitAverage": 5.6875,
+            "cost": 195,
+            "itlAverage": 15.424636,
+            "ttftAverage": 615.29333,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-granite_34b": {
             "accelerator": "MI300X",
-            "numReplicas": 11,
+            "numReplicas": 9,
             "maxBatch": 14,
-            "cost": 715,
-            "itlAverage": 21.135622,
-            "waitAverage": 191.71484,
+            "cost": 585,
+            "itlAverage": 21.735733,
+            "ttftAverage": 1423.668,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-llama3_8b": {
@@ -47,13 +44,12 @@
             "numReplicas": 3,
             "maxBatch": 19,
             "cost": 195,
-            "itlAverage": 7.2821927,
-            "waitAverage": 32.973145,
+            "itlAverage": 7.2991214,
+            "ttftAverage": 84.13885,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-llama_13b": {
@@ -61,27 +57,25 @@
             "numReplicas": 3,
             "maxBatch": 38,
             "cost": 195,
-            "itlAverage": 14.42959,
-            "waitAverage": 10.749023,
+            "itlAverage": 14.488407,
+            "ttftAverage": 100.38976,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-llama_70b": {
-            "accelerator": "4xMI250",
-            "numReplicas": 16,
-            "maxBatch": 16,
-            "cost": 2944,
-            "itlAverage": 24.695438,
-            "waitAverage": 240.86133,
+            "accelerator": "2xMI300X",
+            "numReplicas": 20,
+            "maxBatch": 6,
+            "cost": 2600,
+            "itlAverage": 14.561964,
+            "ttftAverage": 1504.9097,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-llama_7b": {
@@ -89,13 +83,12 @@
             "numReplicas": 4,
             "maxBatch": 38,
             "cost": 92,
-            "itlAverage": 22.418085,
-            "waitAverage": 145.5039,
+            "itlAverage": 22.538061,
+            "ttftAverage": 290.72748,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-mistral_7b": {
@@ -103,153 +96,142 @@
             "numReplicas": 1,
             "maxBatch": 76,
             "cost": 65,
-            "itlAverage": 12.437292,
-            "waitAverage": 44.65332,
+            "itlAverage": 12.523178,
+            "ttftAverage": 121.15658,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Bronze-mixtral_8_7b": {
             "accelerator": "MI300X",
-            "numReplicas": 25,
+            "numReplicas": 21,
             "maxBatch": 9,
-            "cost": 1625,
-            "itlAverage": 21.277634,
-            "waitAverage": 320.4746,
+            "cost": 1365,
+            "itlAverage": 23.728203,
+            "ttftAverage": 1556.2578,
             "load": {
                 "arrivalRate": 240,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-granite_13b": {
-            "accelerator": "MI300X",
-            "numReplicas": 4,
-            "maxBatch": 38,
-            "cost": 260,
-            "itlAverage": 11.42869,
-            "waitAverage": 19.45996,
+            "accelerator": "G2",
+            "numReplicas": 12,
+            "maxBatch": 19,
+            "cost": 276,
+            "itlAverage": 22.659216,
+            "ttftAverage": 3264.149,
             "load": {
                 "arrivalRate": 480,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-granite_20b": {
-            "accelerator": "MI300X",
-            "numReplicas": 6,
-            "maxBatch": 28,
-            "cost": 390,
-            "itlAverage": 15.395756,
-            "waitAverage": 465.41797,
+            "accelerator": "G2",
+            "numReplicas": 23,
+            "maxBatch": 14,
+            "cost": 529,
+            "itlAverage": 29.5777,
+            "ttftAverage": 3089.8916,
             "load": {
                 "arrivalRate": 480,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-granite_34b": {
             "accelerator": "MI300X",
-            "numReplicas": 20,
+            "numReplicas": 17,
             "maxBatch": 14,
-            "cost": 1300,
-            "itlAverage": 21.39877,
-            "waitAverage": 454.64258,
+            "cost": 1105,
+            "itlAverage": 21.919115,
+            "ttftAverage": 2334.7686,
             "load": {
                 "arrivalRate": 480,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-llama3_8b": {
-            "accelerator": "MI300X",
-            "numReplicas": 5,
-            "maxBatch": 19,
-            "cost": 325,
-            "itlAverage": 7.924246,
-            "waitAverage": 325.02734,
+            "accelerator": "G2",
+            "numReplicas": 18,
+            "maxBatch": 9,
+            "cost": 414,
+            "itlAverage": 14.321201,
+            "ttftAverage": 2614.518,
             "load": {
                 "arrivalRate": 480,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-llama_13b": {
-            "accelerator": "MI300X",
-            "numReplicas": 5,
-            "maxBatch": 38,
-            "cost": 325,
-            "itlAverage": 17.154366,
-            "waitAverage": 631.125,
+            "accelerator": "G2",
+            "numReplicas": 16,
+            "maxBatch": 19,
+            "cost": 368,
+            "itlAverage": 27.75653,
+            "ttftAverage": 2623.3708,
             "load": {
                 "arrivalRate": 480,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-llama_70b": {
-            "accelerator": "4xMI250",
-            "numReplicas": 30,
-            "maxBatch": 16,
-            "cost": 5520,
-            "itlAverage": 26.883633,
-            "waitAverage": 610.16406,
+            "accelerator": "2xMI250",
+            "numReplicas": 84,
+            "maxBatch": 4,
+            "cost": 7728,
+            "itlAverage": 20.968227,
+            "ttftAverage": 3843.2249,
             "load": {
                 "arrivalRate": 480,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-llama_7b": {
             "accelerator": "G2",
-            "numReplicas": 8,
+            "numReplicas": 7,
             "maxBatch": 38,
-            "cost": 184,
-            "itlAverage": 22.418085,
-            "waitAverage": 145.5039,
+            "cost": 161,
+            "itlAverage": 26.739565,
+            "ttftAverage": 3921.3948,
             "load": {
                 "arrivalRate": 480,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-mistral_7b": {
-            "accelerator": "MI300X",
-            "numReplicas": 2,
-            "maxBatch": 76,
-            "cost": 130,
-            "itlAverage": 12.437292,
-            "waitAverage": 44.65332,
+            "accelerator": "G2",
+            "numReplicas": 6,
+            "maxBatch": 38,
+            "cost": 138,
+            "itlAverage": 19.823488,
+            "ttftAverage": 510.55756,
             "load": {
                 "arrivalRate": 480,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Free-mixtral_8_7b": {
             "accelerator": "MI300X",
-            "numReplicas": 46,
+            "numReplicas": 1,
             "maxBatch": 9,
-            "cost": 2990,
-            "itlAverage": 22.324787,
-            "waitAverage": 635.2949,
+            "cost": 65,
+            "itlAverage": 25.449596,
+            "ttftAverage": 3549.655,
             "load": {
                 "arrivalRate": 480,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-granite_13b": {
@@ -257,13 +239,12 @@
             "numReplicas": 1,
             "maxBatch": 38,
             "cost": 65,
-            "itlAverage": 11.42869,
-            "waitAverage": 19.45996,
+            "itlAverage": 11.456726,
+            "ttftAverage": 98.64812,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-granite_20b": {
@@ -271,27 +252,25 @@
             "numReplicas": 2,
             "maxBatch": 28,
             "cost": 130,
-            "itlAverage": 14.190127,
-            "waitAverage": 5.6875,
+            "itlAverage": 14.2107115,
+            "ttftAverage": 108.09288,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-granite_34b": {
             "accelerator": "MI300X",
-            "numReplicas": 6,
+            "numReplicas": 5,
             "maxBatch": 14,
-            "cost": 390,
-            "itlAverage": 20.916056,
-            "waitAverage": 85.990234,
+            "cost": 325,
+            "itlAverage": 21.416908,
+            "ttftAverage": 642.80084,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-llama3_8b": {
@@ -299,13 +278,12 @@
             "numReplicas": 1,
             "maxBatch": 19,
             "cost": 130,
-            "itlAverage": 5.357701,
-            "waitAverage": 57.560547,
+            "itlAverage": 5.371296,
+            "ttftAverage": 97.01468,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-llama_13b": {
@@ -313,27 +291,25 @@
             "numReplicas": 5,
             "maxBatch": 19,
             "cost": 115,
-            "itlAverage": 24.949406,
-            "waitAverage": 137.84766,
+            "itlAverage": 25.006908,
+            "ttftAverage": 315.18475,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-llama_70b": {
-            "accelerator": "4xMI250",
-            "numReplicas": 9,
-            "maxBatch": 16,
-            "cost": 1656,
-            "itlAverage": 21.659323,
-            "waitAverage": 44.427734,
+            "accelerator": "2xMI300X",
+            "numReplicas": 11,
+            "maxBatch": 6,
+            "cost": 1430,
+            "itlAverage": 13.930982,
+            "ttftAverage": 874.8516,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-llama_7b": {
@@ -341,41 +317,38 @@
             "numReplicas": 2,
             "maxBatch": 38,
             "cost": 46,
-            "itlAverage": 22.418085,
-            "waitAverage": 145.5039,
+            "itlAverage": 22.538061,
+            "ttftAverage": 290.72748,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-mistral_7b": {
-            "accelerator": "MI250",
+            "accelerator": "2xG2",
             "numReplicas": 1,
-            "maxBatch": 51,
+            "maxBatch": 38,
             "cost": 46,
-            "itlAverage": 16.997248,
-            "waitAverage": 137.48047,
+            "itlAverage": 14.689105,
+            "ttftAverage": 997.07965,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         },
         "Premium-mixtral_8_7b": {
             "accelerator": "MI300X",
-            "numReplicas": 14,
+            "numReplicas": 12,
             "maxBatch": 9,
-            "cost": 910,
-            "itlAverage": 20.078396,
-            "waitAverage": 127.115234,
+            "cost": 780,
+            "itlAverage": 21.8336,
+            "ttftAverage": 598.736,
             "load": {
                 "arrivalRate": 120,
-                "avgLength": 1024,
-                "arrivalCOV": 1.5,
-                "serviceCOV": 1.5
+                "avgInTokens": 128,
+                "avgOutTokens": 1024
             }
         }
     }

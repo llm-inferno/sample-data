@@ -7,47 +7,47 @@
                 {
                     "model": "llama_7b",
                     "slo-itl": 40,
-                    "slo-ttw": 500
+                    "slo-ttft": 1000
                 },
                 {
                     "model": "llama_13b",
                     "slo-itl": 80,
-                    "slo-ttw": 500
+                    "slo-ttft": 1000
                 },
                 {
                     "model": "llama3_8b",
                     "slo-itl": 80,
-                    "slo-ttw": 500
+                    "slo-ttft": 1000
                 },
                 {
                     "model": "llama_70b",
                     "slo-itl": 80,
-                    "slo-ttw": 500
+                    "slo-ttft": 1000
                 },
                 {
                     "model": "mistral_7b",
                     "slo-itl": 40,
-                    "slo-ttw": 500
+                    "slo-ttft": 1000
                 },
                 {
                     "model": "granite_13b",
                     "slo-itl": 40,
-                    "slo-ttw": 500
+                    "slo-ttft": 1000
                 },
                 {
                     "model": "granite_20b",
                     "slo-itl": 40,
-                    "slo-ttw": 500
+                    "slo-ttft": 1000
                 },
                 {
                     "model": "granite_34b",
                     "slo-itl": 80,
-                    "slo-ttw": 500
+                    "slo-ttft": 1000
                 },
                 {
                     "model": "mixtral_8_7b",
                     "slo-itl": 80,
-                    "slo-ttw": 500
+                    "slo-ttft": 1000
                 }
             ]
         },
@@ -58,47 +58,47 @@
                 {
                     "model": "llama_7b",
                     "slo-itl": 80,
-                    "slo-ttw": 1000
+                    "slo-ttft": 2000
                 },
                 {
                     "model": "llama_13b",
                     "slo-itl": 160,
-                    "slo-ttw": 1000
+                    "slo-ttft": 2000
                 },
                 {
                     "model": "llama3_8b",
                     "slo-itl": 160,
-                    "slo-ttw": 1000
+                    "slo-ttft": 2000
                 },
                 {
                     "model": "llama_70b",
                     "slo-itl": 160,
-                    "slo-ttw": 1000
+                    "slo-ttft": 2000
                 },
                 {
                     "model": "mistral_7b",
                     "slo-itl": 80,
-                    "slo-ttw": 1000
+                    "slo-ttft": 2000
                 },
                 {
                     "model": "granite_13b",
                     "slo-itl": 80,
-                    "slo-ttw": 1000
+                    "slo-ttft": 2000
                 },
                 {
                     "model": "granite_20b",
                     "slo-itl": 160,
-                    "slo-ttw": 1000
+                    "slo-ttft": 2000
                 },
                 {
                     "model": "granite_34b",
                     "slo-itl": 160,
-                    "slo-ttw": 1000
+                    "slo-ttft": 2000
                 },
                 {
                     "model": "mixtral_8_7b",
                     "slo-itl": 160,
-                    "slo-ttw": 1000
+                    "slo-ttft": 2000
                 }
             ]
         },
@@ -109,47 +109,47 @@
                 {
                     "model": "llama_7b",
                     "slo-itl": 160,
-                    "slo-ttw": 2000
+                    "slo-ttft": 4000
                 },
                 {
                     "model": "llama_13b",
                     "slo-itl": 320,
-                    "slo-ttw": 2000
+                    "slo-ttft": 4000
                 },
                 {
                     "model": "llama3_8b",
                     "slo-itl": 320,
-                    "slo-ttw": 2000
+                    "slo-ttft": 4000
                 },
                 {
                     "model": "llama_70b",
                     "slo-itl": 320,
-                    "slo-ttw": 2000
+                    "slo-ttft": 4000
                 },
                 {
                     "model": "mistral_7b",
                     "slo-itl": 160,
-                    "slo-ttw": 2000
+                    "slo-ttft": 4000
                 },
                 {
                     "model": "granite_13b",
                     "slo-itl": 160,
-                    "slo-ttw": 2000
+                    "slo-ttft": 4000
                 },
                 {
                     "model": "granite_20b",
                     "slo-itl": 320,
-                    "slo-ttw": 2000
+                    "slo-ttft": 4000
                 },
                 {
                     "model": "granite_34b",
                     "slo-itl": 320,
-                    "slo-ttw": 2000
+                    "slo-ttft": 4000
                 },
                 {
                     "model": "mixtral_8_7b",
                     "slo-itl": 320,
-                    "slo-ttw": 2000
+                    "slo-ttft": 4000
                 }
             ]
         },
