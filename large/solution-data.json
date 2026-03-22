@@ -1,12 +1,12 @@
 {
     "allocations": {
         "Bronze-granite_13b": {
-            "accelerator": "MI300X",
-            "numReplicas": 2,
+            "accelerator": "G2",
+            "numReplicas": 8,
             "maxBatch": 38,
-            "cost": 130,
-            "itlAverage": 11.456726,
-            "ttftAverage": 98.64812,
+            "cost": 184,
+            "itlAverage": 42.205395,
+            "ttftAverage": 295.43335,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -15,11 +15,11 @@
         },
         "Bronze-granite_20b": {
             "accelerator": "MI300X",
-            "numReplicas": 3,
-            "maxBatch": 28,
-            "cost": 195,
-            "itlAverage": 15.424636,
-            "ttftAverage": 615.29333,
+            "numReplicas": 4,
+            "maxBatch": 57,
+            "cost": 260,
+            "itlAverage": 31.691969,
+            "ttftAverage": 138.4448,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -29,10 +29,10 @@
         "Bronze-granite_34b": {
             "accelerator": "MI300X",
             "numReplicas": 9,
-            "maxBatch": 14,
+            "maxBatch": 28,
             "cost": 585,
-            "itlAverage": 21.735733,
-            "ttftAverage": 1423.668,
+            "itlAverage": 36.288174,
+            "ttftAverage": 373.8691,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -40,12 +40,12 @@
             }
         },
         "Bronze-llama3_8b": {
-            "accelerator": "MI300X",
-            "numReplicas": 3,
+            "accelerator": "G2",
+            "numReplicas": 11,
             "maxBatch": 19,
-            "cost": 195,
-            "itlAverage": 7.2991214,
-            "ttftAverage": 84.13885,
+            "cost": 253,
+            "itlAverage": 31.684402,
+            "ttftAverage": 1739.536,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -53,12 +53,12 @@
             }
         },
         "Bronze-llama_13b": {
-            "accelerator": "MI300X",
-            "numReplicas": 3,
+            "accelerator": "G2",
+            "numReplicas": 14,
             "maxBatch": 38,
-            "cost": 195,
-            "itlAverage": 14.488407,
-            "ttftAverage": 100.38976,
+            "cost": 322,
+            "itlAverage": 64.03218,
+            "ttftAverage": 502.60034,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -66,12 +66,12 @@
             }
         },
         "Bronze-llama_70b": {
-            "accelerator": "2xMI300X",
-            "numReplicas": 20,
-            "maxBatch": 6,
-            "cost": 2600,
-            "itlAverage": 14.561964,
-            "ttftAverage": 1504.9097,
+            "accelerator": "2xMI250",
+            "numReplicas": 86,
+            "maxBatch": 8,
+            "cost": 7912,
+            "itlAverage": 58.13935,
+            "ttftAverage": 1942.4258,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -80,11 +80,11 @@
         },
         "Bronze-llama_7b": {
             "accelerator": "G2",
-            "numReplicas": 4,
-            "maxBatch": 38,
-            "cost": 92,
-            "itlAverage": 22.538061,
-            "ttftAverage": 290.72748,
+            "numReplicas": 9,
+            "maxBatch": 76,
+            "cost": 207,
+            "itlAverage": 53.040436,
+            "ttftAverage": 172.30377,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -92,12 +92,12 @@
             }
         },
         "Bronze-mistral_7b": {
-            "accelerator": "MI300X",
-            "numReplicas": 1,
+            "accelerator": "G2",
+            "numReplicas": 6,
             "maxBatch": 76,
-            "cost": 65,
-            "itlAverage": 12.523178,
-            "ttftAverage": 121.15658,
+            "cost": 138,
+            "itlAverage": 45.15448,
+            "ttftAverage": 136.24182,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -106,11 +106,11 @@
         },
         "Bronze-mixtral_8_7b": {
             "accelerator": "MI300X",
-            "numReplicas": 21,
-            "maxBatch": 9,
-            "cost": 1365,
-            "itlAverage": 23.728203,
-            "ttftAverage": 1556.2578,
+            "numReplicas": 43,
+            "maxBatch": 19,
+            "cost": 2795,
+            "itlAverage": 77.35718,
+            "ttftAverage": 1528.1882,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -118,12 +118,12 @@
             }
         },
         "Free-granite_13b": {
-            "accelerator": "G2",
-            "numReplicas": 12,
-            "maxBatch": 19,
-            "cost": 276,
-            "itlAverage": 22.659216,
-            "ttftAverage": 3264.149,
+            "accelerator": "MI250",
+            "numReplicas": 10,
+            "maxBatch": 51,
+            "cost": 460,
+            "itlAverage": 43.09706,
+            "ttftAverage": 1072.3112,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -131,12 +131,12 @@
             }
         },
         "Free-granite_20b": {
-            "accelerator": "G2",
-            "numReplicas": 23,
-            "maxBatch": 14,
-            "cost": 529,
-            "itlAverage": 29.5777,
-            "ttftAverage": 3089.8916,
+            "accelerator": "MI250",
+            "numReplicas": 14,
+            "maxBatch": 38,
+            "cost": 644,
+            "itlAverage": 47.11424,
+            "ttftAverage": 1807.4332,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -144,12 +144,12 @@
             }
         },
         "Free-granite_34b": {
-            "accelerator": "MI300X",
-            "numReplicas": 17,
-            "maxBatch": 14,
-            "cost": 1105,
-            "itlAverage": 21.919115,
-            "ttftAverage": 2334.7686,
+            "accelerator": "2xA100",
+            "numReplicas": 54,
+            "maxBatch": 12,
+            "cost": 4320,
+            "itlAverage": 52.1942,
+            "ttftAverage": 3585.2021,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -157,12 +157,12 @@
             }
         },
         "Free-llama3_8b": {
-            "accelerator": "G2",
-            "numReplicas": 18,
-            "maxBatch": 9,
-            "cost": 414,
-            "itlAverage": 14.321201,
-            "ttftAverage": 2614.518,
+            "accelerator": "MI300X",
+            "numReplicas": 8,
+            "maxBatch": 38,
+            "cost": 520,
+            "itlAverage": 21.010431,
+            "ttftAverage": 381.66263,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -171,11 +171,11 @@
         },
         "Free-llama_13b": {
             "accelerator": "G2",
-            "numReplicas": 16,
-            "maxBatch": 19,
-            "cost": 368,
-            "itlAverage": 27.75653,
-            "ttftAverage": 2623.3708,
+            "numReplicas": 26,
+            "maxBatch": 38,
+            "cost": 598,
+            "itlAverage": 75.134995,
+            "ttftAverage": 2470.7405,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -183,12 +183,12 @@
             }
         },
         "Free-llama_70b": {
-            "accelerator": "2xMI250",
-            "numReplicas": 84,
-            "maxBatch": 4,
-            "cost": 7728,
-            "itlAverage": 20.968227,
-            "ttftAverage": 3843.2249,
+            "accelerator": "4xG2",
+            "numReplicas": 2,
+            "maxBatch": 6,
+            "cost": 184,
+            "itlAverage": 51.38676,
+            "ttftAverage": 3940.9707,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -197,11 +197,11 @@
         },
         "Free-llama_7b": {
             "accelerator": "G2",
-            "numReplicas": 7,
-            "maxBatch": 38,
-            "cost": 161,
-            "itlAverage": 26.739565,
-            "ttftAverage": 3921.3948,
+            "numReplicas": 16,
+            "maxBatch": 76,
+            "cost": 368,
+            "itlAverage": 85.499115,
+            "ttftAverage": 1589.4481,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -210,11 +210,11 @@
         },
         "Free-mistral_7b": {
             "accelerator": "G2",
-            "numReplicas": 6,
-            "maxBatch": 38,
-            "cost": 138,
-            "itlAverage": 19.823488,
-            "ttftAverage": 510.55756,
+            "numReplicas": 11,
+            "maxBatch": 76,
+            "cost": 253,
+            "itlAverage": 59.31422,
+            "ttftAverage": 570.94244,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -223,11 +223,11 @@
         },
         "Free-mixtral_8_7b": {
             "accelerator": "MI300X",
-            "numReplicas": 1,
-            "maxBatch": 9,
-            "cost": 65,
-            "itlAverage": 25.449596,
-            "ttftAverage": 3549.655,
+            "numReplicas": 2,
+            "maxBatch": 19,
+            "cost": 130,
+            "itlAverage": 87.7698,
+            "ttftAverage": 3734.5427,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -235,12 +235,12 @@
             }
         },
         "Premium-granite_13b": {
-            "accelerator": "MI300X",
-            "numReplicas": 1,
+            "accelerator": "G2",
+            "numReplicas": 5,
             "maxBatch": 38,
-            "cost": 65,
-            "itlAverage": 11.456726,
-            "ttftAverage": 98.64812,
+            "cost": 115,
+            "itlAverage": 34.100506,
+            "ttftAverage": 110.33258,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -250,10 +250,10 @@
         "Premium-granite_20b": {
             "accelerator": "MI300X",
             "numReplicas": 2,
-            "maxBatch": 28,
+            "maxBatch": 57,
             "cost": 130,
-            "itlAverage": 14.2107115,
-            "ttftAverage": 108.09288,
+            "itlAverage": 31.691969,
+            "ttftAverage": 138.4448,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -263,10 +263,10 @@
         "Premium-granite_34b": {
             "accelerator": "MI300X",
             "numReplicas": 5,
-            "maxBatch": 14,
+            "maxBatch": 28,
             "cost": 325,
-            "itlAverage": 21.416908,
-            "ttftAverage": 642.80084,
+            "itlAverage": 33.67899,
+            "ttftAverage": 145.00813,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -274,12 +274,12 @@
             }
         },
         "Premium-llama3_8b": {
-            "accelerator": "2xMI300X",
-            "numReplicas": 1,
-            "maxBatch": 19,
+            "accelerator": "MI300X",
+            "numReplicas": 2,
+            "maxBatch": 38,
             "cost": 130,
-            "itlAverage": 5.371296,
-            "ttftAverage": 97.01468,
+            "itlAverage": 21.010431,
+            "ttftAverage": 381.66263,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -288,11 +288,11 @@
         },
         "Premium-llama_13b": {
             "accelerator": "G2",
-            "numReplicas": 5,
-            "maxBatch": 19,
-            "cost": 115,
-            "itlAverage": 25.006908,
-            "ttftAverage": 315.18475,
+            "numReplicas": 7,
+            "maxBatch": 38,
+            "cost": 161,
+            "itlAverage": 64.03218,
+            "ttftAverage": 502.60034,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -301,11 +301,11 @@
         },
         "Premium-llama_70b": {
             "accelerator": "2xMI300X",
-            "numReplicas": 11,
-            "maxBatch": 6,
-            "cost": 1430,
-            "itlAverage": 13.930982,
-            "ttftAverage": 874.8516,
+            "numReplicas": 22,
+            "maxBatch": 12,
+            "cost": 2860,
+            "itlAverage": 41.96945,
+            "ttftAverage": 786.068,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -313,12 +313,12 @@
             }
         },
         "Premium-llama_7b": {
-            "accelerator": "G2",
+            "accelerator": "MI300X",
             "numReplicas": 2,
-            "maxBatch": 38,
-            "cost": 46,
-            "itlAverage": 22.538061,
-            "ttftAverage": 290.72748,
+            "maxBatch": 153,
+            "cost": 130,
+            "itlAverage": 25.494432,
+            "ttftAverage": 80.3344,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -326,12 +326,12 @@
             }
         },
         "Premium-mistral_7b": {
-            "accelerator": "2xG2",
-            "numReplicas": 1,
-            "maxBatch": 38,
-            "cost": 46,
-            "itlAverage": 14.689105,
-            "ttftAverage": 997.07965,
+            "accelerator": "G2",
+            "numReplicas": 4,
+            "maxBatch": 76,
+            "cost": 92,
+            "itlAverage": 27.158941,
+            "ttftAverage": 95.890724,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -340,11 +340,11 @@
         },
         "Premium-mixtral_8_7b": {
             "accelerator": "MI300X",
-            "numReplicas": 12,
-            "maxBatch": 9,
-            "cost": 780,
-            "itlAverage": 21.8336,
-            "ttftAverage": 598.736,
+            "numReplicas": 23,
+            "maxBatch": 19,
+            "cost": 1495,
+            "itlAverage": 68.43374,
+            "ttftAverage": 739.89685,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
