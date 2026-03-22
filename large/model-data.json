@@ -4,7 +4,7 @@
       "name": "granite_13b",
       "acc": "AIU2",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 205.8,
@@ -16,7 +16,7 @@
       "name": "granite_13b",
       "acc": "L4",
       "accCount": 2,
-      "maxBatchSize": 9,
+      "maxBatchSize": 18,
       "atTokens": 512,
       "perfParms": {
         "alpha": 137.2,
@@ -28,7 +28,7 @@
       "name": "granite_13b",
       "acc": "L40S",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 47.86,
@@ -40,7 +40,7 @@
       "name": "granite_13b",
       "acc": "MI210",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 25.1,
@@ -52,7 +52,7 @@
       "name": "granite_13b",
       "acc": "A100",
       "accCount": 1,
-      "maxBatchSize": 32,
+      "maxBatchSize": 64,
       "atTokens": 512,
       "perfParms": {
         "alpha": 20.58,
@@ -64,7 +64,7 @@
       "name": "granite_13b",
       "acc": "G2",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 17.15,
@@ -76,7 +76,7 @@
       "name": "granite_13b",
       "acc": "MI250",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.86,
@@ -88,7 +88,7 @@
       "name": "granite_13b",
       "acc": "H100",
       "accCount": 1,
-      "maxBatchSize": 32,
+      "maxBatchSize": 64,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.25,
@@ -100,7 +100,7 @@
       "name": "granite_13b",
       "acc": "MI300X",
       "accCount": 1,
-      "maxBatchSize": 76,
+      "maxBatchSize": 152,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.77,
@@ -112,7 +112,7 @@
       "name": "granite_13b",
       "acc": "2xAIU2",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 147,
@@ -124,7 +124,7 @@
       "name": "granite_13b",
       "acc": "2xMI210",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 17.74,
@@ -136,7 +136,7 @@
       "name": "granite_13b",
       "acc": "2xA100",
       "accCount": 1,
-      "maxBatchSize": 32,
+      "maxBatchSize": 64,
       "atTokens": 512,
       "perfParms": {
         "alpha": 14.6,
@@ -148,7 +148,7 @@
       "name": "granite_13b",
       "acc": "2xG2",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.11,
@@ -160,7 +160,7 @@
       "name": "granite_13b",
       "acc": "2xMI250",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 9.11,
@@ -172,7 +172,7 @@
       "name": "granite_13b",
       "acc": "2xH100",
       "accCount": 1,
-      "maxBatchSize": 32,
+      "maxBatchSize": 64,
       "atTokens": 512,
       "perfParms": {
         "alpha": 8.65,
@@ -184,7 +184,7 @@
       "name": "granite_13b",
       "acc": "2xMI300X",
       "accCount": 1,
-      "maxBatchSize": 76,
+      "maxBatchSize": 152,
       "atTokens": 512,
       "perfParms": {
         "alpha": 5.49,
@@ -196,7 +196,7 @@
       "name": "granite_13b",
       "acc": "4xAIU2",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 102.9,
@@ -208,7 +208,7 @@
       "name": "granite_13b",
       "acc": "4xMI210",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.55,
@@ -220,7 +220,7 @@
       "name": "granite_13b",
       "acc": "4xA100",
       "accCount": 1,
-      "maxBatchSize": 32,
+      "maxBatchSize": 64,
       "atTokens": 512,
       "perfParms": {
         "alpha": 10.29,
@@ -232,7 +232,7 @@
       "name": "granite_13b",
       "acc": "4xG2",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 8.58,
@@ -244,7 +244,7 @@
       "name": "granite_13b",
       "acc": "4xMI250",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 6.43,
@@ -256,7 +256,7 @@
       "name": "granite_20b",
       "acc": "AIU2",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 297.8,
@@ -268,7 +268,7 @@
       "name": "granite_20b",
       "acc": "L4",
       "accCount": 4,
-      "maxBatchSize": 7,
+      "maxBatchSize": 14,
       "atTokens": 512,
       "perfParms": {
         "alpha": 198.53,
@@ -280,7 +280,7 @@
       "name": "granite_20b",
       "acc": "L40S",
       "accCount": 2,
-      "maxBatchSize": 14,
+      "maxBatchSize": 28,
       "atTokens": 512,
       "perfParms": {
         "alpha": 69.26,
@@ -292,7 +292,7 @@
       "name": "granite_20b",
       "acc": "MI210",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 36.32,
@@ -304,7 +304,7 @@
       "name": "granite_20b",
       "acc": "A100",
       "accCount": 1,
-      "maxBatchSize": 24,
+      "maxBatchSize": 48,
       "atTokens": 512,
       "perfParms": {
         "alpha": 29.78,
@@ -316,7 +316,7 @@
       "name": "granite_20b",
       "acc": "G2",
       "accCount": 1,
-      "maxBatchSize": 28,
+      "maxBatchSize": 56,
       "atTokens": 512,
       "perfParms": {
         "alpha": 24.82,
@@ -328,7 +328,7 @@
       "name": "granite_20b",
       "acc": "MI250",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 18.61,
@@ -340,7 +340,7 @@
       "name": "granite_20b",
       "acc": "H100",
       "accCount": 1,
-      "maxBatchSize": 24,
+      "maxBatchSize": 48,
       "atTokens": 512,
       "perfParms": {
         "alpha": 17.73,
@@ -352,7 +352,7 @@
       "name": "granite_20b",
       "acc": "MI300X",
       "accCount": 1,
-      "maxBatchSize": 57,
+      "maxBatchSize": 114,
       "atTokens": 512,
       "perfParms": {
         "alpha": 11.24,
@@ -364,7 +364,7 @@
       "name": "granite_20b",
       "acc": "2xAIU2",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 212.71,
@@ -376,7 +376,7 @@
       "name": "granite_20b",
       "acc": "2xMI210",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 25.67,
@@ -388,7 +388,7 @@
       "name": "granite_20b",
       "acc": "2xA100",
       "accCount": 1,
-      "maxBatchSize": 24,
+      "maxBatchSize": 48,
       "atTokens": 512,
       "perfParms": {
         "alpha": 21.12,
@@ -400,7 +400,7 @@
       "name": "granite_20b",
       "acc": "2xG2",
       "accCount": 1,
-      "maxBatchSize": 28,
+      "maxBatchSize": 56,
       "atTokens": 512,
       "perfParms": {
         "alpha": 17.52,
@@ -412,7 +412,7 @@
       "name": "granite_20b",
       "acc": "2xMI250",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 13.18,
@@ -424,7 +424,7 @@
       "name": "granite_20b",
       "acc": "2xH100",
       "accCount": 1,
-      "maxBatchSize": 24,
+      "maxBatchSize": 48,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.51,
@@ -436,7 +436,7 @@
       "name": "granite_20b",
       "acc": "2xMI300X",
       "accCount": 1,
-      "maxBatchSize": 57,
+      "maxBatchSize": 114,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.94,
@@ -448,7 +448,7 @@
       "name": "granite_20b",
       "acc": "4xAIU2",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 148.9,
@@ -460,7 +460,7 @@
       "name": "granite_20b",
       "acc": "4xMI210",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 18.16,
@@ -472,7 +472,7 @@
       "name": "granite_20b",
       "acc": "4xA100",
       "accCount": 1,
-      "maxBatchSize": 24,
+      "maxBatchSize": 48,
       "atTokens": 512,
       "perfParms": {
         "alpha": 14.89,
@@ -484,7 +484,7 @@
       "name": "granite_20b",
       "acc": "4xG2",
       "accCount": 1,
-      "maxBatchSize": 29,
+      "maxBatchSize": 58,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.41,
@@ -496,7 +496,7 @@
       "name": "granite_20b",
       "acc": "4xMI250",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 9.31,
@@ -508,7 +508,7 @@
       "name": "granite_34b",
       "acc": "AIU2",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 487.7,
@@ -520,7 +520,7 @@
       "name": "granite_34b",
       "acc": "L4",
       "accCount": 4,
-      "maxBatchSize": 3,
+      "maxBatchSize": 6,
       "atTokens": 512,
       "perfParms": {
         "alpha": 325.13,
@@ -532,7 +532,7 @@
       "name": "granite_34b",
       "acc": "L40S",
       "accCount": 4,
-      "maxBatchSize": 7,
+      "maxBatchSize": 14,
       "atTokens": 512,
       "perfParms": {
         "alpha": 113.42,
@@ -544,7 +544,7 @@
       "name": "granite_34b",
       "acc": "MI210",
       "accCount": 2,
-      "maxBatchSize": 9,
+      "maxBatchSize": 18,
       "atTokens": 512,
       "perfParms": {
         "alpha": 59.48,
@@ -556,7 +556,7 @@
       "name": "granite_34b",
       "acc": "A100",
       "accCount": 2,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 48.77,
@@ -568,7 +568,7 @@
       "name": "granite_34b",
       "acc": "G2",
       "accCount": 2,
-      "maxBatchSize": 14,
+      "maxBatchSize": 28,
       "atTokens": 512,
       "perfParms": {
         "alpha": 40.64,
@@ -580,7 +580,7 @@
       "name": "granite_34b",
       "acc": "MI250",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 30.48,
@@ -592,7 +592,7 @@
       "name": "granite_34b",
       "acc": "H100",
       "accCount": 2,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 29.03,
@@ -604,7 +604,7 @@
       "name": "granite_34b",
       "acc": "MI300X",
       "accCount": 1,
-      "maxBatchSize": 28,
+      "maxBatchSize": 56,
       "atTokens": 512,
       "perfParms": {
         "alpha": 18.4,
@@ -616,7 +616,7 @@
       "name": "granite_34b",
       "acc": "2xAIU2",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 348.36,
@@ -628,7 +628,7 @@
       "name": "granite_34b",
       "acc": "2xMI210",
       "accCount": 1,
-      "maxBatchSize": 9,
+      "maxBatchSize": 18,
       "atTokens": 512,
       "perfParms": {
         "alpha": 42.04,
@@ -640,7 +640,7 @@
       "name": "granite_34b",
       "acc": "2xA100",
       "accCount": 1,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 34.59,
@@ -652,7 +652,7 @@
       "name": "granite_34b",
       "acc": "2xG2",
       "accCount": 1,
-      "maxBatchSize": 14,
+      "maxBatchSize": 28,
       "atTokens": 512,
       "perfParms": {
         "alpha": 28.69,
@@ -664,7 +664,7 @@
       "name": "granite_34b",
       "acc": "2xMI250",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 21.58,
@@ -676,7 +676,7 @@
       "name": "granite_34b",
       "acc": "2xH100",
       "accCount": 1,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 20.49,
@@ -688,7 +688,7 @@
       "name": "granite_34b",
       "acc": "2xMI300X",
       "accCount": 1,
-      "maxBatchSize": 28,
+      "maxBatchSize": 56,
       "atTokens": 512,
       "perfParms": {
         "alpha": 13.01,
@@ -700,7 +700,7 @@
       "name": "granite_34b",
       "acc": "4xAIU2",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 243.85,
@@ -712,7 +712,7 @@
       "name": "granite_34b",
       "acc": "4xMI210",
       "accCount": 1,
-      "maxBatchSize": 9,
+      "maxBatchSize": 18,
       "atTokens": 512,
       "perfParms": {
         "alpha": 29.74,
@@ -724,7 +724,7 @@
       "name": "granite_34b",
       "acc": "4xA100",
       "accCount": 1,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 24.39,
@@ -736,7 +736,7 @@
       "name": "granite_34b",
       "acc": "4xG2",
       "accCount": 1,
-      "maxBatchSize": 14,
+      "maxBatchSize": 28,
       "atTokens": 512,
       "perfParms": {
         "alpha": 20.32,
@@ -748,7 +748,7 @@
       "name": "granite_34b",
       "acc": "4xMI250",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 15.24,
@@ -760,7 +760,7 @@
       "name": "llama_7b",
       "acc": "AIU2",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 116.9,
@@ -772,7 +772,7 @@
       "name": "llama_7b",
       "acc": "L4",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 77.93,
@@ -784,7 +784,7 @@
       "name": "llama_7b",
       "acc": "L40S",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 27.19,
@@ -796,7 +796,7 @@
       "name": "llama_7b",
       "acc": "MI210",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 14.26,
@@ -808,7 +808,7 @@
       "name": "llama_7b",
       "acc": "A100",
       "accCount": 1,
-      "maxBatchSize": 64,
+      "maxBatchSize": 128,
       "atTokens": 512,
       "perfParms": {
         "alpha": 11.69,
@@ -820,7 +820,7 @@
       "name": "llama_7b",
       "acc": "G2",
       "accCount": 1,
-      "maxBatchSize": 76,
+      "maxBatchSize": 152,
       "atTokens": 512,
       "perfParms": {
         "alpha": 9.74,
@@ -832,7 +832,7 @@
       "name": "llama_7b",
       "acc": "MI250",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.31,
@@ -844,7 +844,7 @@
       "name": "llama_7b",
       "acc": "H100",
       "accCount": 1,
-      "maxBatchSize": 64,
+      "maxBatchSize": 128,
       "atTokens": 512,
       "perfParms": {
         "alpha": 6.96,
@@ -856,7 +856,7 @@
       "name": "llama_7b",
       "acc": "MI300X",
       "accCount": 1,
-      "maxBatchSize": 153,
+      "maxBatchSize": 306,
       "atTokens": 512,
       "perfParms": {
         "alpha": 4.41,
@@ -868,7 +868,7 @@
       "name": "llama_7b",
       "acc": "2xAIU2",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 83.5,
@@ -880,7 +880,7 @@
       "name": "llama_7b",
       "acc": "2xMI210",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 10.08,
@@ -892,7 +892,7 @@
       "name": "llama_7b",
       "acc": "2xA100",
       "accCount": 1,
-      "maxBatchSize": 64,
+      "maxBatchSize": 128,
       "atTokens": 512,
       "perfParms": {
         "alpha": 8.29,
@@ -904,7 +904,7 @@
       "name": "llama_7b",
       "acc": "2xG2",
       "accCount": 1,
-      "maxBatchSize": 76,
+      "maxBatchSize": 152,
       "atTokens": 512,
       "perfParms": {
         "alpha": 6.88,
@@ -916,7 +916,7 @@
       "name": "llama_7b",
       "acc": "2xMI250",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 5.17,
@@ -928,7 +928,7 @@
       "name": "llama_7b",
       "acc": "2xH100",
       "accCount": 1,
-      "maxBatchSize": 64,
+      "maxBatchSize": 128,
       "atTokens": 512,
       "perfParms": {
         "alpha": 4.91,
@@ -940,7 +940,7 @@
       "name": "llama_7b",
       "acc": "2xMI300X",
       "accCount": 1,
-      "maxBatchSize": 153,
+      "maxBatchSize": 306,
       "atTokens": 512,
       "perfParms": {
         "alpha": 3.12,
@@ -952,7 +952,7 @@
       "name": "llama_7b",
       "acc": "4xAIU2",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 58.45,
@@ -964,7 +964,7 @@
       "name": "llama_7b",
       "acc": "4xMI210",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.13,
@@ -976,7 +976,7 @@
       "name": "llama_7b",
       "acc": "4xA100",
       "accCount": 1,
-      "maxBatchSize": 64,
+      "maxBatchSize": 128,
       "atTokens": 512,
       "perfParms": {
         "alpha": 5.85,
@@ -988,7 +988,7 @@
       "name": "llama_7b",
       "acc": "4xG2",
       "accCount": 1,
-      "maxBatchSize": 77,
+      "maxBatchSize": 154,
       "atTokens": 512,
       "perfParms": {
         "alpha": 4.87,
@@ -1000,7 +1000,7 @@
       "name": "llama_7b",
       "acc": "4xMI250",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 3.65,
@@ -1012,7 +1012,7 @@
       "name": "llama_13b",
       "acc": "AIU2",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 201.3,
@@ -1024,7 +1024,7 @@
       "name": "llama_13b",
       "acc": "L4",
       "accCount": 2,
-      "maxBatchSize": 9,
+      "maxBatchSize": 18,
       "atTokens": 512,
       "perfParms": {
         "alpha": 134.2,
@@ -1036,7 +1036,7 @@
       "name": "llama_13b",
       "acc": "L40S",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 46.81,
@@ -1048,7 +1048,7 @@
       "name": "llama_13b",
       "acc": "MI210",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 24.55,
@@ -1060,7 +1060,7 @@
       "name": "llama_13b",
       "acc": "A100",
       "accCount": 1,
-      "maxBatchSize": 32,
+      "maxBatchSize": 64,
       "atTokens": 512,
       "perfParms": {
         "alpha": 20.13,
@@ -1072,7 +1072,7 @@
       "name": "llama_13b",
       "acc": "G2",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 16.78,
@@ -1084,7 +1084,7 @@
       "name": "llama_13b",
       "acc": "MI250",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.58,
@@ -1096,7 +1096,7 @@
       "name": "llama_13b",
       "acc": "H100",
       "accCount": 1,
-      "maxBatchSize": 32,
+      "maxBatchSize": 64,
       "atTokens": 512,
       "perfParms": {
         "alpha": 11.98,
@@ -1108,7 +1108,7 @@
       "name": "llama_13b",
       "acc": "MI300X",
       "accCount": 1,
-      "maxBatchSize": 76,
+      "maxBatchSize": 152,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.6,
@@ -1120,7 +1120,7 @@
       "name": "llama_13b",
       "acc": "2xAIU2",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 143.79,
@@ -1132,7 +1132,7 @@
       "name": "llama_13b",
       "acc": "2xMI210",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 17.35,
@@ -1144,7 +1144,7 @@
       "name": "llama_13b",
       "acc": "2xA100",
       "accCount": 1,
-      "maxBatchSize": 32,
+      "maxBatchSize": 64,
       "atTokens": 512,
       "perfParms": {
         "alpha": 14.28,
@@ -1156,7 +1156,7 @@
       "name": "llama_13b",
       "acc": "2xG2",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 11.84,
@@ -1168,7 +1168,7 @@
       "name": "llama_13b",
       "acc": "2xMI250",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 8.91,
@@ -1180,7 +1180,7 @@
       "name": "llama_13b",
       "acc": "2xH100",
       "accCount": 1,
-      "maxBatchSize": 32,
+      "maxBatchSize": 64,
       "atTokens": 512,
       "perfParms": {
         "alpha": 8.46,
@@ -1192,7 +1192,7 @@
       "name": "llama_13b",
       "acc": "2xMI300X",
       "accCount": 1,
-      "maxBatchSize": 76,
+      "maxBatchSize": 152,
       "atTokens": 512,
       "perfParms": {
         "alpha": 5.37,
@@ -1204,7 +1204,7 @@
       "name": "llama_13b",
       "acc": "4xAIU2",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 100.65,
@@ -1216,7 +1216,7 @@
       "name": "llama_13b",
       "acc": "4xMI210",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.27,
@@ -1228,7 +1228,7 @@
       "name": "llama_13b",
       "acc": "4xA100",
       "accCount": 1,
-      "maxBatchSize": 32,
+      "maxBatchSize": 64,
       "atTokens": 512,
       "perfParms": {
         "alpha": 10.07,
@@ -1240,7 +1240,7 @@
       "name": "llama_13b",
       "acc": "4xG2",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 8.39,
@@ -1252,7 +1252,7 @@
       "name": "llama_13b",
       "acc": "4xMI250",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 6.29,
@@ -1264,7 +1264,7 @@
       "name": "llama3_8b",
       "acc": "AIU2",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 129.3,
@@ -1276,7 +1276,7 @@
       "name": "llama3_8b",
       "acc": "L4",
       "accCount": 4,
-      "maxBatchSize": 4,
+      "maxBatchSize": 8,
       "atTokens": 512,
       "perfParms": {
         "alpha": 86.2,
@@ -1288,7 +1288,7 @@
       "name": "llama3_8b",
       "acc": "L40S",
       "accCount": 2,
-      "maxBatchSize": 9,
+      "maxBatchSize": 18,
       "atTokens": 512,
       "perfParms": {
         "alpha": 30.07,
@@ -1300,7 +1300,7 @@
       "name": "llama3_8b",
       "acc": "MI210",
       "accCount": 2,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 15.77,
@@ -1312,7 +1312,7 @@
       "name": "llama3_8b",
       "acc": "A100",
       "accCount": 1,
-      "maxBatchSize": 16,
+      "maxBatchSize": 32,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.93,
@@ -1324,7 +1324,7 @@
       "name": "llama3_8b",
       "acc": "G2",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 10.78,
@@ -1336,7 +1336,7 @@
       "name": "llama3_8b",
       "acc": "MI250",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 8.08,
@@ -1348,7 +1348,7 @@
       "name": "llama3_8b",
       "acc": "H100",
       "accCount": 1,
-      "maxBatchSize": 16,
+      "maxBatchSize": 32,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.7,
@@ -1360,7 +1360,7 @@
       "name": "llama3_8b",
       "acc": "MI300X",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 4.88,
@@ -1372,7 +1372,7 @@
       "name": "llama3_8b",
       "acc": "2xAIU2",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 92.36,
@@ -1384,7 +1384,7 @@
       "name": "llama3_8b",
       "acc": "2xMI210",
       "accCount": 1,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 11.15,
@@ -1396,7 +1396,7 @@
       "name": "llama3_8b",
       "acc": "2xA100",
       "accCount": 1,
-      "maxBatchSize": 16,
+      "maxBatchSize": 32,
       "atTokens": 512,
       "perfParms": {
         "alpha": 9.17,
@@ -1408,7 +1408,7 @@
       "name": "llama3_8b",
       "acc": "2xG2",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.61,
@@ -1420,7 +1420,7 @@
       "name": "llama3_8b",
       "acc": "2xMI250",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 5.72,
@@ -1432,7 +1432,7 @@
       "name": "llama3_8b",
       "acc": "2xH100",
       "accCount": 1,
-      "maxBatchSize": 16,
+      "maxBatchSize": 32,
       "atTokens": 512,
       "perfParms": {
         "alpha": 5.43,
@@ -1444,7 +1444,7 @@
       "name": "llama3_8b",
       "acc": "2xMI300X",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 3.45,
@@ -1456,7 +1456,7 @@
       "name": "llama3_8b",
       "acc": "4xAIU2",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 64.65,
@@ -1468,7 +1468,7 @@
       "name": "llama3_8b",
       "acc": "4xMI210",
       "accCount": 1,
-      "maxBatchSize": 13,
+      "maxBatchSize": 26,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.88,
@@ -1480,7 +1480,7 @@
       "name": "llama3_8b",
       "acc": "4xA100",
       "accCount": 1,
-      "maxBatchSize": 16,
+      "maxBatchSize": 32,
       "atTokens": 512,
       "perfParms": {
         "alpha": 6.47,
@@ -1492,7 +1492,7 @@
       "name": "llama3_8b",
       "acc": "4xG2",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 5.39,
@@ -1504,7 +1504,7 @@
       "name": "llama3_8b",
       "acc": "4xMI250",
       "accCount": 1,
-      "maxBatchSize": 25,
+      "maxBatchSize": 50,
       "atTokens": 512,
       "perfParms": {
         "alpha": 4.04,
@@ -1516,7 +1516,7 @@
       "name": "llama_70b",
       "acc": "AIU2",
       "accCount": 2,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 274.1,
@@ -1528,7 +1528,7 @@
       "name": "llama_70b",
       "acc": "L4",
       "accCount": 8,
-      "maxBatchSize": 1,
+      "maxBatchSize": 2,
       "atTokens": 512,
       "perfParms": {
         "alpha": 182.73,
@@ -1540,7 +1540,7 @@
       "name": "llama_70b",
       "acc": "L40S",
       "accCount": 4,
-      "maxBatchSize": 3,
+      "maxBatchSize": 6,
       "atTokens": 512,
       "perfParms": {
         "alpha": 63.74,
@@ -1552,7 +1552,7 @@
       "name": "llama_70b",
       "acc": "MI210",
       "accCount": 4,
-      "maxBatchSize": 4,
+      "maxBatchSize": 8,
       "atTokens": 512,
       "perfParms": {
         "alpha": 33.43,
@@ -1564,7 +1564,7 @@
       "name": "llama_70b",
       "acc": "A100",
       "accCount": 4,
-      "maxBatchSize": 5,
+      "maxBatchSize": 10,
       "atTokens": 512,
       "perfParms": {
         "alpha": 27.41,
@@ -1576,7 +1576,7 @@
       "name": "llama_70b",
       "acc": "G2",
       "accCount": 4,
-      "maxBatchSize": 6,
+      "maxBatchSize": 12,
       "atTokens": 512,
       "perfParms": {
         "alpha": 22.84,
@@ -1588,7 +1588,7 @@
       "name": "llama_70b",
       "acc": "MI250",
       "accCount": 2,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 17.13,
@@ -1600,7 +1600,7 @@
       "name": "llama_70b",
       "acc": "H100",
       "accCount": 4,
-      "maxBatchSize": 5,
+      "maxBatchSize": 10,
       "atTokens": 512,
       "perfParms": {
         "alpha": 16.32,
@@ -1612,7 +1612,7 @@
       "name": "llama_70b",
       "acc": "MI300X",
       "accCount": 2,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 10.34,
@@ -1624,7 +1624,7 @@
       "name": "llama_70b",
       "acc": "2xAIU2",
       "accCount": 1,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 195.79,
@@ -1636,7 +1636,7 @@
       "name": "llama_70b",
       "acc": "2xMI210",
       "accCount": 2,
-      "maxBatchSize": 4,
+      "maxBatchSize": 8,
       "atTokens": 512,
       "perfParms": {
         "alpha": 23.63,
@@ -1648,7 +1648,7 @@
       "name": "llama_70b",
       "acc": "2xA100",
       "accCount": 2,
-      "maxBatchSize": 5,
+      "maxBatchSize": 10,
       "atTokens": 512,
       "perfParms": {
         "alpha": 19.44,
@@ -1660,7 +1660,7 @@
       "name": "llama_70b",
       "acc": "2xG2",
       "accCount": 2,
-      "maxBatchSize": 6,
+      "maxBatchSize": 12,
       "atTokens": 512,
       "perfParms": {
         "alpha": 16.12,
@@ -1672,7 +1672,7 @@
       "name": "llama_70b",
       "acc": "2xMI250",
       "accCount": 1,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.13,
@@ -1684,7 +1684,7 @@
       "name": "llama_70b",
       "acc": "2xH100",
       "accCount": 2,
-      "maxBatchSize": 5,
+      "maxBatchSize": 10,
       "atTokens": 512,
       "perfParms": {
         "alpha": 11.52,
@@ -1696,7 +1696,7 @@
       "name": "llama_70b",
       "acc": "2xMI300X",
       "accCount": 1,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.31,
@@ -1708,7 +1708,7 @@
       "name": "llama_70b",
       "acc": "4xAIU2",
       "accCount": 1,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 137.05,
@@ -1720,7 +1720,7 @@
       "name": "llama_70b",
       "acc": "4xMI210",
       "accCount": 1,
-      "maxBatchSize": 4,
+      "maxBatchSize": 8,
       "atTokens": 512,
       "perfParms": {
         "alpha": 16.71,
@@ -1732,7 +1732,7 @@
       "name": "llama_70b",
       "acc": "4xA100",
       "accCount": 1,
-      "maxBatchSize": 5,
+      "maxBatchSize": 10,
       "atTokens": 512,
       "perfParms": {
         "alpha": 13.71,
@@ -1744,7 +1744,7 @@
       "name": "llama_70b",
       "acc": "4xG2",
       "accCount": 1,
-      "maxBatchSize": 6,
+      "maxBatchSize": 12,
       "atTokens": 512,
       "perfParms": {
         "alpha": 11.42,
@@ -1756,7 +1756,7 @@
       "name": "llama_70b",
       "acc": "4xMI250",
       "accCount": 1,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 8.57,
@@ -1768,7 +1768,7 @@
       "name": "mistral_7b",
       "acc": "AIU2",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 123.2,
@@ -1780,7 +1780,7 @@
       "name": "mistral_7b",
       "acc": "L4",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 82.13,
@@ -1792,7 +1792,7 @@
       "name": "mistral_7b",
       "acc": "L40S",
       "accCount": 1,
-      "maxBatchSize": 38,
+      "maxBatchSize": 76,
       "atTokens": 512,
       "perfParms": {
         "alpha": 28.65,
@@ -1804,7 +1804,7 @@
       "name": "mistral_7b",
       "acc": "MI210",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 15.02,
@@ -1816,7 +1816,7 @@
       "name": "mistral_7b",
       "acc": "A100",
       "accCount": 1,
-      "maxBatchSize": 64,
+      "maxBatchSize": 128,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.32,
@@ -1828,7 +1828,7 @@
       "name": "mistral_7b",
       "acc": "G2",
       "accCount": 1,
-      "maxBatchSize": 76,
+      "maxBatchSize": 152,
       "atTokens": 512,
       "perfParms": {
         "alpha": 10.27,
@@ -1840,7 +1840,7 @@
       "name": "mistral_7b",
       "acc": "MI250",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.7,
@@ -1852,7 +1852,7 @@
       "name": "mistral_7b",
       "acc": "H100",
       "accCount": 1,
-      "maxBatchSize": 64,
+      "maxBatchSize": 128,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.33,
@@ -1864,7 +1864,7 @@
       "name": "mistral_7b",
       "acc": "MI300X",
       "accCount": 1,
-      "maxBatchSize": 153,
+      "maxBatchSize": 306,
       "atTokens": 512,
       "perfParms": {
         "alpha": 4.65,
@@ -1876,7 +1876,7 @@
       "name": "mistral_7b",
       "acc": "2xAIU2",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 88,
@@ -1888,7 +1888,7 @@
       "name": "mistral_7b",
       "acc": "2xMI210",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 10.62,
@@ -1900,7 +1900,7 @@
       "name": "mistral_7b",
       "acc": "2xA100",
       "accCount": 1,
-      "maxBatchSize": 64,
+      "maxBatchSize": 128,
       "atTokens": 512,
       "perfParms": {
         "alpha": 8.74,
@@ -1912,7 +1912,7 @@
       "name": "mistral_7b",
       "acc": "2xG2",
       "accCount": 1,
-      "maxBatchSize": 76,
+      "maxBatchSize": 152,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.25,
@@ -1924,7 +1924,7 @@
       "name": "mistral_7b",
       "acc": "2xMI250",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 5.45,
@@ -1936,7 +1936,7 @@
       "name": "mistral_7b",
       "acc": "2xH100",
       "accCount": 1,
-      "maxBatchSize": 64,
+      "maxBatchSize": 128,
       "atTokens": 512,
       "perfParms": {
         "alpha": 5.18,
@@ -1948,7 +1948,7 @@
       "name": "mistral_7b",
       "acc": "2xMI300X",
       "accCount": 1,
-      "maxBatchSize": 153,
+      "maxBatchSize": 306,
       "atTokens": 512,
       "perfParms": {
         "alpha": 3.29,
@@ -1960,7 +1960,7 @@
       "name": "mistral_7b",
       "acc": "4xAIU2",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 61.6,
@@ -1972,7 +1972,7 @@
       "name": "mistral_7b",
       "acc": "4xMI210",
       "accCount": 1,
-      "maxBatchSize": 51,
+      "maxBatchSize": 102,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.51,
@@ -1984,7 +1984,7 @@
       "name": "mistral_7b",
       "acc": "4xA100",
       "accCount": 1,
-      "maxBatchSize": 64,
+      "maxBatchSize": 128,
       "atTokens": 512,
       "perfParms": {
         "alpha": 6.16,
@@ -1996,7 +1996,7 @@
       "name": "mistral_7b",
       "acc": "4xG2",
       "accCount": 1,
-      "maxBatchSize": 77,
+      "maxBatchSize": 154,
       "atTokens": 512,
       "perfParms": {
         "alpha": 5.13,
@@ -2008,7 +2008,7 @@
       "name": "mistral_7b",
       "acc": "4xMI250",
       "accCount": 1,
-      "maxBatchSize": 102,
+      "maxBatchSize": 204,
       "atTokens": 512,
       "perfParms": {
         "alpha": 3.85,
@@ -2020,7 +2020,7 @@
       "name": "mixtral_8_7b",
       "acc": "AIU2",
       "accCount": 2,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 296.3,
@@ -2032,7 +2032,7 @@
       "name": "mixtral_8_7b",
       "acc": "L4",
       "accCount": 8,
-      "maxBatchSize": 2,
+      "maxBatchSize": 4,
       "atTokens": 512,
       "perfParms": {
         "alpha": 197.53,
@@ -2044,7 +2044,7 @@
       "name": "mixtral_8_7b",
       "acc": "L40S",
       "accCount": 4,
-      "maxBatchSize": 4,
+      "maxBatchSize": 8,
       "atTokens": 512,
       "perfParms": {
         "alpha": 68.91,
@@ -2056,7 +2056,7 @@
       "name": "mixtral_8_7b",
       "acc": "MI210",
       "accCount": 4,
-      "maxBatchSize": 6,
+      "maxBatchSize": 12,
       "atTokens": 512,
       "perfParms": {
         "alpha": 36.13,
@@ -2068,7 +2068,7 @@
       "name": "mixtral_8_7b",
       "acc": "A100",
       "accCount": 4,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 29.63,
@@ -2080,7 +2080,7 @@
       "name": "mixtral_8_7b",
       "acc": "G2",
       "accCount": 2,
-      "maxBatchSize": 9,
+      "maxBatchSize": 18,
       "atTokens": 512,
       "perfParms": {
         "alpha": 24.69,
@@ -2092,7 +2092,7 @@
       "name": "mixtral_8_7b",
       "acc": "MI250",
       "accCount": 2,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 18.52,
@@ -2104,7 +2104,7 @@
       "name": "mixtral_8_7b",
       "acc": "H100",
       "accCount": 4,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 17.64,
@@ -2116,7 +2116,7 @@
       "name": "mixtral_8_7b",
       "acc": "MI300X",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 11.18,
@@ -2128,7 +2128,7 @@
       "name": "mixtral_8_7b",
       "acc": "2xAIU2",
       "accCount": 1,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 211.64,
@@ -2140,7 +2140,7 @@
       "name": "mixtral_8_7b",
       "acc": "2xMI210",
       "accCount": 2,
-      "maxBatchSize": 6,
+      "maxBatchSize": 12,
       "atTokens": 512,
       "perfParms": {
         "alpha": 25.54,
@@ -2152,7 +2152,7 @@
       "name": "mixtral_8_7b",
       "acc": "2xA100",
       "accCount": 2,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 21.01,
@@ -2164,7 +2164,7 @@
       "name": "mixtral_8_7b",
       "acc": "2xG2",
       "accCount": 1,
-      "maxBatchSize": 9,
+      "maxBatchSize": 18,
       "atTokens": 512,
       "perfParms": {
         "alpha": 17.43,
@@ -2176,7 +2176,7 @@
       "name": "mixtral_8_7b",
       "acc": "2xMI250",
       "accCount": 1,
-      "maxBatchSize": 12,
+      "maxBatchSize": 24,
       "atTokens": 512,
       "perfParms": {
         "alpha": 13.11,
@@ -2188,7 +2188,7 @@
       "name": "mixtral_8_7b",
       "acc": "2xH100",
       "accCount": 2,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.45,
@@ -2200,7 +2200,7 @@
       "name": "mixtral_8_7b",
       "acc": "2xMI300X",
       "accCount": 1,
-      "maxBatchSize": 19,
+      "maxBatchSize": 38,
       "atTokens": 512,
       "perfParms": {
         "alpha": 7.9,
@@ -2212,7 +2212,7 @@
       "name": "mixtral_8_7b",
       "acc": "4xAIU2",
       "accCount": 1,
-      "maxBatchSize": 13,
+      "maxBatchSize": 26,
       "atTokens": 512,
       "perfParms": {
         "alpha": 148.15,
@@ -2224,7 +2224,7 @@
       "name": "mixtral_8_7b",
       "acc": "4xMI210",
       "accCount": 1,
-      "maxBatchSize": 6,
+      "maxBatchSize": 12,
       "atTokens": 512,
       "perfParms": {
         "alpha": 18.07,
@@ -2236,7 +2236,7 @@
       "name": "mixtral_8_7b",
       "acc": "4xA100",
       "accCount": 1,
-      "maxBatchSize": 8,
+      "maxBatchSize": 16,
       "atTokens": 512,
       "perfParms": {
         "alpha": 14.82,
@@ -2248,7 +2248,7 @@
       "name": "mixtral_8_7b",
       "acc": "4xG2",
       "accCount": 1,
-      "maxBatchSize": 9,
+      "maxBatchSize": 18,
       "atTokens": 512,
       "perfParms": {
         "alpha": 12.35,
@@ -2260,7 +2260,7 @@
       "name": "mixtral_8_7b",
       "acc": "4xMI250",
       "accCount": 1,
-      "maxBatchSize": 13,
+      "maxBatchSize": 26,
       "atTokens": 512,
       "perfParms": {
         "alpha": 9.26,

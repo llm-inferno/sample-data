@@ -114,7 +114,7 @@
           "name": "granite_13b",
           "acc": "AIU2",
           "accCount": 1,
-          "maxBatchSize": 51,
+          "maxBatchSize": 102,
           "atTokens": 512,
           "perfParms": {
             "alpha": 205.8,
@@ -126,7 +126,7 @@
           "name": "granite_13b",
           "acc": "L4",
           "accCount": 2,
-          "maxBatchSize": 9,
+          "maxBatchSize": 18,
           "atTokens": 512,
           "perfParms": {
             "alpha": 137.2,
@@ -138,7 +138,7 @@
           "name": "granite_13b",
           "acc": "A100",
           "accCount": 1,
-          "maxBatchSize": 32,
+          "maxBatchSize": 64,
           "atTokens": 512,
           "perfParms": {
             "alpha": 20.58,
@@ -150,7 +150,7 @@
           "name": "granite_13b",
           "acc": "G2",
           "accCount": 1,
-          "maxBatchSize": 38,
+          "maxBatchSize": 76,
           "atTokens": 512,
           "perfParms": {
             "alpha": 17.15,
@@ -162,7 +162,7 @@
           "name": "granite_13b",
           "acc": "2xAIU2",
           "accCount": 1,
-          "maxBatchSize": 51,
+          "maxBatchSize": 102,
           "atTokens": 512,
           "perfParms": {
             "alpha": 147,
@@ -174,7 +174,7 @@
           "name": "granite_13b",
           "acc": "4xA100",
           "accCount": 1,
-          "maxBatchSize": 32,
+          "maxBatchSize": 64,
           "atTokens": 512,
           "perfParms": {
             "alpha": 10.29,
@@ -186,7 +186,7 @@
           "name": "granite_34b",
           "acc": "AIU2",
           "accCount": 1,
-          "maxBatchSize": 19,
+          "maxBatchSize": 38,
           "atTokens": 512,
           "perfParms": {
             "alpha": 487.7,
@@ -198,7 +198,7 @@
           "name": "granite_34b",
           "acc": "L4",
           "accCount": 4,
-          "maxBatchSize": 3,
+          "maxBatchSize": 6,
           "atTokens": 512,
           "perfParms": {
             "alpha": 325.13,
@@ -210,7 +210,7 @@
           "name": "granite_34b",
           "acc": "A100",
           "accCount": 2,
-          "maxBatchSize": 12,
+          "maxBatchSize": 24,
           "atTokens": 512,
           "perfParms": {
             "alpha": 48.77,
@@ -222,7 +222,7 @@
           "name": "granite_34b",
           "acc": "G2",
           "accCount": 2,
-          "maxBatchSize": 14,
+          "maxBatchSize": 28,
           "atTokens": 512,
           "perfParms": {
             "alpha": 40.64,
@@ -234,7 +234,7 @@
           "name": "granite_34b",
           "acc": "2xAIU2",
           "accCount": 1,
-          "maxBatchSize": 19,
+          "maxBatchSize": 38,
           "atTokens": 512,
           "perfParms": {
             "alpha": 348.36,
@@ -246,7 +246,7 @@
           "name": "granite_34b",
           "acc": "4xA100",
           "accCount": 1,
-          "maxBatchSize": 12,
+          "maxBatchSize": 24,
           "atTokens": 512,
           "perfParms": {
             "alpha": 24.39,
@@ -258,7 +258,7 @@
           "name": "llama_13b",
           "acc": "AIU2",
           "accCount": 1,
-          "maxBatchSize": 51,
+          "maxBatchSize": 102,
           "atTokens": 512,
           "perfParms": {
             "alpha": 201.3,
@@ -270,7 +270,7 @@
           "name": "llama_13b",
           "acc": "L4",
           "accCount": 2,
-          "maxBatchSize": 9,
+          "maxBatchSize": 18,
           "atTokens": 512,
           "perfParms": {
             "alpha": 134.2,
@@ -282,7 +282,7 @@
           "name": "llama_13b",
           "acc": "A100",
           "accCount": 1,
-          "maxBatchSize": 32,
+          "maxBatchSize": 64,
           "atTokens": 512,
           "perfParms": {
             "alpha": 20.13,
@@ -294,7 +294,7 @@
           "name": "llama_13b",
           "acc": "G2",
           "accCount": 1,
-          "maxBatchSize": 38,
+          "maxBatchSize": 76,
           "atTokens": 512,
           "perfParms": {
             "alpha": 16.78,
@@ -306,7 +306,7 @@
           "name": "llama_13b",
           "acc": "2xAIU2",
           "accCount": 1,
-          "maxBatchSize": 51,
+          "maxBatchSize": 102,
           "atTokens": 512,
           "perfParms": {
             "alpha": 143.79,
@@ -318,7 +318,7 @@
           "name": "llama_13b",
           "acc": "4xA100",
           "accCount": 1,
-          "maxBatchSize": 32,
+          "maxBatchSize": 64,
           "atTokens": 512,
           "perfParms": {
             "alpha": 10.07,
@@ -330,7 +330,7 @@
           "name": "llama_70b",
           "acc": "AIU2",
           "accCount": 2,
-          "maxBatchSize": 8,
+          "maxBatchSize": 16,
           "atTokens": 512,
           "perfParms": {
             "alpha": 274.1,
@@ -342,7 +342,7 @@
           "name": "llama_70b",
           "acc": "L4",
           "accCount": 8,
-          "maxBatchSize": 1,
+          "maxBatchSize": 2,
           "atTokens": 512,
           "perfParms": {
             "alpha": 182.73,
@@ -354,7 +354,7 @@
           "name": "llama_70b",
           "acc": "A100",
           "accCount": 4,
-          "maxBatchSize": 5,
+          "maxBatchSize": 10,
           "atTokens": 512,
           "perfParms": {
             "alpha": 27.41,
@@ -366,7 +366,7 @@
           "name": "llama_70b",
           "acc": "G2",
           "accCount": 4,
-          "maxBatchSize": 6,
+          "maxBatchSize": 12,
           "atTokens": 512,
           "perfParms": {
             "alpha": 22.84,
@@ -378,7 +378,7 @@
           "name": "llama_70b",
           "acc": "2xAIU2",
           "accCount": 1,
-          "maxBatchSize": 8,
+          "maxBatchSize": 16,
           "atTokens": 512,
           "perfParms": {
             "alpha": 195.79,
@@ -390,7 +390,7 @@
           "name": "llama_70b",
           "acc": "4xA100",
           "accCount": 1,
-          "maxBatchSize": 5,
+          "maxBatchSize": 10,
           "atTokens": 512,
           "perfParms": {
             "alpha": 13.71,
@@ -402,7 +402,7 @@
           "name": "mixtral_8_7b",
           "acc": "AIU2",
           "accCount": 2,
-          "maxBatchSize": 12,
+          "maxBatchSize": 24,
           "atTokens": 512,
           "perfParms": {
             "alpha": 296.3,
@@ -414,7 +414,7 @@
           "name": "mixtral_8_7b",
           "acc": "L4",
           "accCount": 8,
-          "maxBatchSize": 2,
+          "maxBatchSize": 4,
           "atTokens": 512,
           "perfParms": {
             "alpha": 197.53,
@@ -426,7 +426,7 @@
           "name": "mixtral_8_7b",
           "acc": "A100",
           "accCount": 4,
-          "maxBatchSize": 8,
+          "maxBatchSize": 16,
           "atTokens": 512,
           "perfParms": {
             "alpha": 29.63,
@@ -438,7 +438,7 @@
           "name": "mixtral_8_7b",
           "acc": "G2",
           "accCount": 2,
-          "maxBatchSize": 9,
+          "maxBatchSize": 18,
           "atTokens": 512,
           "perfParms": {
             "alpha": 24.69,
@@ -450,7 +450,7 @@
           "name": "mixtral_8_7b",
           "acc": "2xAIU2",
           "accCount": 1,
-          "maxBatchSize": 12,
+          "maxBatchSize": 24,
           "atTokens": 512,
           "perfParms": {
             "alpha": 211.64,
@@ -462,7 +462,7 @@
           "name": "mixtral_8_7b",
           "acc": "4xA100",
           "accCount": 1,
-          "maxBatchSize": 8,
+          "maxBatchSize": 16,
           "atTokens": 512,
           "perfParms": {
             "alpha": 14.82,
