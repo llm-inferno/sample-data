@@ -1,12 +1,12 @@
 {
     "allocations": {
         "Bronze-granite_13b": {
-            "accelerator": "G2",
-            "numReplicas": 8,
-            "maxBatch": 38,
-            "cost": 184,
-            "itlAverage": 42.205395,
-            "ttftAverage": 295.43335,
+            "accelerator": "MI300X",
+            "numReplicas": 2,
+            "maxBatch": 76,
+            "cost": 130,
+            "itlAverage": 23.95688,
+            "ttftAverage": 127.59338,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -15,11 +15,11 @@
         },
         "Bronze-granite_20b": {
             "accelerator": "MI300X",
-            "numReplicas": 4,
+            "numReplicas": 3,
             "maxBatch": 57,
-            "cost": 260,
-            "itlAverage": 31.691969,
-            "ttftAverage": 138.4448,
+            "cost": 195,
+            "itlAverage": 26.6507,
+            "ttftAverage": 138.6801,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -28,11 +28,11 @@
         },
         "Bronze-granite_34b": {
             "accelerator": "MI300X",
-            "numReplicas": 9,
+            "numReplicas": 7,
             "maxBatch": 28,
-            "cost": 585,
-            "itlAverage": 36.288174,
-            "ttftAverage": 373.8691,
+            "cost": 455,
+            "itlAverage": 31.88778,
+            "ttftAverage": 548.83014,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -40,12 +40,12 @@
             }
         },
         "Bronze-llama3_8b": {
-            "accelerator": "G2",
-            "numReplicas": 11,
-            "maxBatch": 19,
-            "cost": 253,
-            "itlAverage": 31.684402,
-            "ttftAverage": 1739.536,
+            "accelerator": "MI300X",
+            "numReplicas": 3,
+            "maxBatch": 38,
+            "cost": 195,
+            "itlAverage": 15.871095,
+            "ttftAverage": 168.58119,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -54,11 +54,11 @@
         },
         "Bronze-llama_13b": {
             "accelerator": "G2",
-            "numReplicas": 14,
+            "numReplicas": 10,
             "maxBatch": 38,
-            "cost": 322,
-            "itlAverage": 64.03218,
-            "ttftAverage": 502.60034,
+            "cost": 230,
+            "itlAverage": 53.830456,
+            "ttftAverage": 618.9834,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -66,12 +66,12 @@
             }
         },
         "Bronze-llama_70b": {
-            "accelerator": "2xMI250",
-            "numReplicas": 86,
-            "maxBatch": 8,
-            "cost": 7912,
-            "itlAverage": 58.13935,
-            "ttftAverage": 1942.4258,
+            "accelerator": "2xMI300X",
+            "numReplicas": 28,
+            "maxBatch": 12,
+            "cost": 3640,
+            "itlAverage": 36.127678,
+            "ttftAverage": 1356.6448,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -80,11 +80,11 @@
         },
         "Bronze-llama_7b": {
             "accelerator": "G2",
-            "numReplicas": 9,
+            "numReplicas": 6,
             "maxBatch": 76,
-            "cost": 207,
-            "itlAverage": 53.040436,
-            "ttftAverage": 172.30377,
+            "cost": 138,
+            "itlAverage": 50.9575,
+            "ttftAverage": 141.22441,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -93,11 +93,11 @@
         },
         "Bronze-mistral_7b": {
             "accelerator": "G2",
-            "numReplicas": 6,
+            "numReplicas": 4,
             "maxBatch": 76,
-            "cost": 138,
-            "itlAverage": 45.15448,
-            "ttftAverage": 136.24182,
+            "cost": 92,
+            "itlAverage": 44.30299,
+            "ttftAverage": 268.0292,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -106,11 +106,11 @@
         },
         "Bronze-mixtral_8_7b": {
             "accelerator": "MI300X",
-            "numReplicas": 43,
+            "numReplicas": 29,
             "maxBatch": 19,
-            "cost": 2795,
-            "itlAverage": 77.35718,
-            "ttftAverage": 1528.1882,
+            "cost": 1885,
+            "itlAverage": 63.519577,
+            "ttftAverage": 1941.2548,
             "load": {
                 "arrivalRate": 240,
                 "avgInTokens": 128,
@@ -118,12 +118,12 @@
             }
         },
         "Free-granite_13b": {
-            "accelerator": "MI250",
-            "numReplicas": 10,
-            "maxBatch": 51,
-            "cost": 460,
-            "itlAverage": 43.09706,
-            "ttftAverage": 1072.3112,
+            "accelerator": "G2",
+            "numReplicas": 11,
+            "maxBatch": 38,
+            "cost": 253,
+            "itlAverage": 39.669254,
+            "ttftAverage": 2370.4578,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -131,12 +131,12 @@
             }
         },
         "Free-granite_20b": {
-            "accelerator": "MI250",
-            "numReplicas": 14,
-            "maxBatch": 38,
-            "cost": 644,
-            "itlAverage": 47.11424,
-            "ttftAverage": 1807.4332,
+            "accelerator": "G2",
+            "numReplicas": 17,
+            "maxBatch": 28,
+            "cost": 391,
+            "itlAverage": 46.068127,
+            "ttftAverage": 3938.3398,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -144,12 +144,12 @@
             }
         },
         "Free-granite_34b": {
-            "accelerator": "2xA100",
-            "numReplicas": 54,
-            "maxBatch": 12,
-            "cost": 4320,
-            "itlAverage": 52.1942,
-            "ttftAverage": 3585.2021,
+            "accelerator": "MI300X",
+            "numReplicas": 13,
+            "maxBatch": 28,
+            "cost": 845,
+            "itlAverage": 33.3685,
+            "ttftAverage": 1686.7775,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -157,12 +157,12 @@
             }
         },
         "Free-llama3_8b": {
-            "accelerator": "MI300X",
-            "numReplicas": 8,
-            "maxBatch": 38,
-            "cost": 520,
-            "itlAverage": 21.010431,
-            "ttftAverage": 381.66263,
+            "accelerator": "G2",
+            "numReplicas": 16,
+            "maxBatch": 19,
+            "cost": 368,
+            "itlAverage": 26.814466,
+            "ttftAverage": 2855.2424,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -171,11 +171,11 @@
         },
         "Free-llama_13b": {
             "accelerator": "G2",
-            "numReplicas": 26,
+            "numReplicas": 19,
             "maxBatch": 38,
-            "cost": 598,
-            "itlAverage": 75.134995,
-            "ttftAverage": 2470.7405,
+            "cost": 437,
+            "itlAverage": 58.853645,
+            "ttftAverage": 1987.5083,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -183,12 +183,12 @@
             }
         },
         "Free-llama_70b": {
-            "accelerator": "4xG2",
-            "numReplicas": 2,
-            "maxBatch": 6,
-            "cost": 184,
-            "itlAverage": 51.38676,
-            "ttftAverage": 3940.9707,
+            "accelerator": "2xMI250",
+            "numReplicas": 107,
+            "maxBatch": 8,
+            "cost": 9844,
+            "itlAverage": 49.7116,
+            "ttftAverage": 3719.5325,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -197,11 +197,11 @@
         },
         "Free-llama_7b": {
             "accelerator": "G2",
-            "numReplicas": 16,
+            "numReplicas": 11,
             "maxBatch": 76,
-            "cost": 368,
-            "itlAverage": 85.499115,
-            "ttftAverage": 1589.4481,
+            "cost": 253,
+            "itlAverage": 71.42885,
+            "ttftAverage": 3330.345,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -210,11 +210,11 @@
         },
         "Free-mistral_7b": {
             "accelerator": "G2",
-            "numReplicas": 11,
+            "numReplicas": 8,
             "maxBatch": 76,
-            "cost": 253,
-            "itlAverage": 59.31422,
-            "ttftAverage": 570.94244,
+            "cost": 184,
+            "itlAverage": 44.30299,
+            "ttftAverage": 268.0292,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -223,11 +223,11 @@
         },
         "Free-mixtral_8_7b": {
             "accelerator": "MI300X",
-            "numReplicas": 2,
+            "numReplicas": 56,
             "maxBatch": 19,
-            "cost": 130,
-            "itlAverage": 87.7698,
-            "ttftAverage": 3734.5427,
+            "cost": 3640,
+            "itlAverage": 68.06971,
+            "ttftAverage": 3504.562,
             "load": {
                 "arrivalRate": 480,
                 "avgInTokens": 128,
@@ -235,12 +235,12 @@
             }
         },
         "Premium-granite_13b": {
-            "accelerator": "G2",
-            "numReplicas": 5,
-            "maxBatch": 38,
-            "cost": 115,
-            "itlAverage": 34.100506,
-            "ttftAverage": 110.33258,
+            "accelerator": "MI300X",
+            "numReplicas": 1,
+            "maxBatch": 76,
+            "cost": 65,
+            "itlAverage": 23.95688,
+            "ttftAverage": 127.59338,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -248,12 +248,12 @@
             }
         },
         "Premium-granite_20b": {
-            "accelerator": "MI300X",
-            "numReplicas": 2,
+            "accelerator": "2xMI300X",
+            "numReplicas": 1,
             "maxBatch": 57,
             "cost": 130,
-            "itlAverage": 31.691969,
-            "ttftAverage": 138.4448,
+            "itlAverage": 19.386042,
+            "ttftAverage": 215.25104,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -262,11 +262,11 @@
         },
         "Premium-granite_34b": {
             "accelerator": "MI300X",
-            "numReplicas": 5,
+            "numReplicas": 4,
             "maxBatch": 28,
-            "cost": 325,
-            "itlAverage": 33.67899,
-            "ttftAverage": 145.00813,
+            "cost": 260,
+            "itlAverage": 29.65023,
+            "ttftAverage": 114.75605,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -274,12 +274,12 @@
             }
         },
         "Premium-llama3_8b": {
-            "accelerator": "MI300X",
-            "numReplicas": 2,
-            "maxBatch": 38,
-            "cost": 130,
-            "itlAverage": 21.010431,
-            "ttftAverage": 381.66263,
+            "accelerator": "G2",
+            "numReplicas": 5,
+            "maxBatch": 19,
+            "cost": 115,
+            "itlAverage": 22.277742,
+            "ttftAverage": 168.49936,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -288,11 +288,11 @@
         },
         "Premium-llama_13b": {
             "accelerator": "G2",
-            "numReplicas": 7,
+            "numReplicas": 5,
             "maxBatch": 38,
-            "cost": 161,
-            "itlAverage": 64.03218,
-            "ttftAverage": 502.60034,
+            "cost": 115,
+            "itlAverage": 53.830456,
+            "ttftAverage": 618.9834,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -301,11 +301,11 @@
         },
         "Premium-llama_70b": {
             "accelerator": "2xMI300X",
-            "numReplicas": 22,
+            "numReplicas": 15,
             "maxBatch": 12,
-            "cost": 2860,
-            "itlAverage": 41.96945,
-            "ttftAverage": 786.068,
+            "cost": 1950,
+            "itlAverage": 33.31656,
+            "ttftAverage": 652.645,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -313,12 +313,12 @@
             }
         },
         "Premium-llama_7b": {
-            "accelerator": "MI300X",
-            "numReplicas": 2,
-            "maxBatch": 153,
-            "cost": 130,
-            "itlAverage": 25.494432,
-            "ttftAverage": 80.3344,
+            "accelerator": "G2",
+            "numReplicas": 4,
+            "maxBatch": 76,
+            "cost": 92,
+            "itlAverage": 28.098799,
+            "ttftAverage": 60.959938,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -326,12 +326,12 @@
             }
         },
         "Premium-mistral_7b": {
-            "accelerator": "G2",
-            "numReplicas": 4,
-            "maxBatch": 76,
-            "cost": 92,
-            "itlAverage": 27.158941,
-            "ttftAverage": 95.890724,
+            "accelerator": "MI300X",
+            "numReplicas": 1,
+            "maxBatch": 153,
+            "cost": 65,
+            "itlAverage": 15.075398,
+            "ttftAverage": 31.498627,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,
@@ -340,11 +340,11 @@
         },
         "Premium-mixtral_8_7b": {
             "accelerator": "MI300X",
-            "numReplicas": 23,
+            "numReplicas": 16,
             "maxBatch": 19,
-            "cost": 1495,
-            "itlAverage": 68.43374,
-            "ttftAverage": 739.89685,
+            "cost": 1040,
+            "itlAverage": 53.63843,
+            "ttftAverage": 451.61993,
             "load": {
                 "arrivalRate": 120,
                 "avgInTokens": 128,

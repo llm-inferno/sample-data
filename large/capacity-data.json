@@ -2,39 +2,39 @@
     "count": [
         {
             "type": "L4",
-            "count": 128
+            "count": 256
         },
         {
             "type": "L40S",
-            "count": 64
+            "count": 256
         },
         {
             "type": "A100",
-            "count": 196
+            "count": 192
         },
         {
             "type": "H100",
-            "count": 64
-        },
-        {
-            "type": "AIU2",
-            "count": 512
-        },
-        {
-            "type": "G2",
             "count": 128
         },
         {
+            "type": "AIU2",
+            "count": 1024
+        },
+        {
+            "type": "G2",
+            "count": 256
+        },
+        {
             "type": "MI210",
-            "count": 196
+            "count": 192
         },
         {
             "type": "MI250",
-            "count": 196
+            "count": 224
         },
         {
             "type": "MI300X",
-            "count": 144
+            "count": 224
         }
     ]
 }

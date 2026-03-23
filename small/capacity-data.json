@@ -6,15 +6,15 @@
         },
         {
             "type": "A100",
-            "count": 512
+            "count": 768
         },
         {
             "type": "AIU2",
-            "count": 2048
+            "count": 1024
         },
         {
             "type": "G2",
-            "count": 1048
+            "count": 512
         }
     ]
 }

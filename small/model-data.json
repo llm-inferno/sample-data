@@ -8,7 +8,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 205.8,
-        "beta": 4.1,
+        "beta": 0.41,
         "gamma": 0.0128125
       }
     },
@@ -20,7 +20,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 137.2,
-        "beta": 2.73,
+        "beta": 0.273,
         "gamma": 0.00853125
       }
     },
@@ -32,7 +32,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 20.58,
-        "beta": 0.41,
+        "beta": 0.041,
         "gamma": 0.00128125
       }
     },
@@ -44,7 +44,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 17.15,
-        "beta": 0.34,
+        "beta": 0.034,
         "gamma": 0.0010625
       }
     },
@@ -56,7 +56,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 147,
-        "beta": 2.93,
+        "beta": 0.293,
         "gamma": 0.00915625
       }
     },
@@ -68,7 +68,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 10.29,
-        "beta": 0.21,
+        "beta": 0.021,
         "gamma": 0.00065625
       }
     },
@@ -80,7 +80,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 487.7,
-        "beta": 8.2,
+        "beta": 0.82,
         "gamma": 0.025625
       }
     },
@@ -92,7 +92,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 325.13,
-        "beta": 5.47,
+        "beta": 0.547,
         "gamma": 0.01709375
       }
     },
@@ -104,7 +104,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 48.77,
-        "beta": 0.82,
+        "beta": 0.082,
         "gamma": 0.0025625
       }
     },
@@ -116,7 +116,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 40.64,
-        "beta": 0.68,
+        "beta": 0.068,
         "gamma": 0.002125
       }
     },
@@ -128,7 +128,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 348.36,
-        "beta": 5.86,
+        "beta": 0.586,
         "gamma": 0.0183125
       }
     },
@@ -140,7 +140,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 24.39,
-        "beta": 0.41,
+        "beta": 0.041,
         "gamma": 0.00128125
       }
     },
@@ -152,7 +152,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 201.3,
-        "beta": 8.7,
+        "beta": 0.87,
         "gamma": 0.0271875
       }
     },
@@ -164,7 +164,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 134.2,
-        "beta": 5.8,
+        "beta": 0.58,
         "gamma": 0.018125
       }
     },
@@ -176,7 +176,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 20.13,
-        "beta": 0.87,
+        "beta": 0.087,
         "gamma": 0.00271875
       }
     },
@@ -188,7 +188,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 16.78,
-        "beta": 0.73,
+        "beta": 0.073,
         "gamma": 0.00228125
       }
     },
@@ -200,7 +200,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 143.79,
-        "beta": 6.21,
+        "beta": 0.621,
         "gamma": 0.01940625
       }
     },
@@ -212,7 +212,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 10.07,
-        "beta": 0.44,
+        "beta": 0.044,
         "gamma": 0.001375
       }
     },
@@ -224,7 +224,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 274.1,
-        "beta": 70.7,
+        "beta": 7.07,
         "gamma": 0.2209375
       }
     },
@@ -236,7 +236,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 182.73,
-        "beta": 47.13,
+        "beta": 4.713,
         "gamma": 0.14728125
       }
     },
@@ -248,7 +248,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 27.41,
-        "beta": 7.07,
+        "beta": 0.707,
         "gamma": 0.02209375
       }
     },
@@ -260,7 +260,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 22.84,
-        "beta": 5.89,
+        "beta": 0.589,
         "gamma": 0.01840625
       }
     },
@@ -272,7 +272,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 195.79,
-        "beta": 50.5,
+        "beta": 5.05,
         "gamma": 0.1578125
       }
     },
@@ -284,7 +284,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 13.71,
-        "beta": 3.54,
+        "beta": 0.354,
         "gamma": 0.0110625
       }
     },
@@ -296,7 +296,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 296.3,
-        "beta": 60.1,
+        "beta": 6.01,
         "gamma": 0.1878125
       }
     },
@@ -308,7 +308,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 197.53,
-        "beta": 40.07,
+        "beta": 4.007,
         "gamma": 0.12521875
       }
     },
@@ -320,7 +320,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 29.63,
-        "beta": 6.01,
+        "beta": 0.601,
         "gamma": 0.01878125
       }
     },
@@ -332,7 +332,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 24.69,
-        "beta": 5.01,
+        "beta": 0.501,
         "gamma": 0.01565625
       }
     },
@@ -344,7 +344,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 211.64,
-        "beta": 42.93,
+        "beta": 4.293,
         "gamma": 0.13415625
       }
     },
@@ -356,7 +356,7 @@
       "atTokens": 512,
       "perfParms": {
         "alpha": 14.82,
-        "beta": 3.01,
+        "beta": 0.301,
         "gamma": 0.00940625
       }
     }
